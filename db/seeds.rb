@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-#Movie.all.destroy
+Movie.delete_all
 
 Director.delete_all
 
