@@ -9,7 +9,8 @@
 
 #Movie.all.destroy
 
-Director.all.destroy
+Director.delete_all
+
 
 Movie.create([{title: 'Fight club', release_year: 1999, director: 'David Fincher'}, {title: 'Nosso Lar', release_year: 1944, director: 'Chico Xavier'},
     {title:'Battle Royale', release_year: 2000, director: 'Takeshi Kitano'}])
