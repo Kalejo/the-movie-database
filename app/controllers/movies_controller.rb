@@ -1,8 +1,7 @@
 class MoviesController < ApplicationController
   def index
-  	#puts 'cooucou'
+  	puts 'cooucou'
   	@movies = Movie.all
-
 
   end
 end
