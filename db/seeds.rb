@@ -11,6 +11,8 @@
 
 Director.delete_all
 
+Director.create([{first_name: 'David ', last_name: 'Fincher'}, {first_name: 'Chico', last_name:'Xavier'}, {first_name: 'Takeshi', last_name: 'Kitano'}])
 
-Movie.create([{title: 'Fight club', release_year: 1999, director: 'David Fincher'}, {title: 'Nosso Lar', release_year: 1944, director: 'Chico Xavier'},
-    {title:'Battle Royale', release_year: 2000, director: 'Takeshi Kitano'}])
+Movie.create([{title: 'Fight club', release_year: 1999, director_id: 1}, {title: 'Nosso Lar', release_year: 1944, director_id: 2},
+    {title:'Battle Royale', release_year: 2000, director_id: 3}])
+
